@@ -16,6 +16,10 @@
 		F7F02E8C2909940F0091DC39 /* decodeCSVfilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F02E8B2909940F0091DC39 /* decodeCSVfilesTests.swift */; };
 		F7F02E962909940F0091DC39 /* decodeCSVfilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F02E952909940F0091DC39 /* decodeCSVfilesUITests.swift */; };
 		F7F02E982909940F0091DC39 /* decodeCSVfilesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F02E972909940F0091DC39 /* decodeCSVfilesUITestsLaunchTests.swift */; };
+		F7F02EB3290996B70091DC39 /* slope10x10.csv in Resources */ = {isa = PBXBuildFile; fileRef = F7F02EAF290996B70091DC39 /* slope10x10.csv */; };
+		F7F02EB7290997E30091DC39 /* height10x10.csv in Resources */ = {isa = PBXBuildFile; fileRef = F7F02EB4290997E30091DC39 /* height10x10.csv */; };
+		F7F02EB8290997E30091DC39 /* longitude10x10.csv in Resources */ = {isa = PBXBuildFile; fileRef = F7F02EB5290997E30091DC39 /* longitude10x10.csv */; };
+		F7F02EB9290997E30091DC39 /* latitude10x10.csv in Resources */ = {isa = PBXBuildFile; fileRef = F7F02EB6290997E30091DC39 /* latitude10x10.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		F7F02E912909940F0091DC39 /* decodeCSVfilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = decodeCSVfilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F02E952909940F0091DC39 /* decodeCSVfilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decodeCSVfilesUITests.swift; sourceTree = "<group>"; };
 		F7F02E972909940F0091DC39 /* decodeCSVfilesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decodeCSVfilesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7F02EAF290996B70091DC39 /* slope10x10.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = slope10x10.csv; sourceTree = "<group>"; };
+		F7F02EB4290997E30091DC39 /* height10x10.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = height10x10.csv; sourceTree = "<group>"; };
+		F7F02EB5290997E30091DC39 /* longitude10x10.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = longitude10x10.csv; sourceTree = "<group>"; };
+		F7F02EB6290997E30091DC39 /* latitude10x10.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = latitude10x10.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				F7F02E762909940D0091DC39 /* SceneDelegate.swift */,
 				F7F02E782909940D0091DC39 /* ViewController.swift */,
 				F7F02E7A2909940D0091DC39 /* Main.storyboard */,
+				F7F02EB4290997E30091DC39 /* height10x10.csv */,
+				F7F02EB6290997E30091DC39 /* latitude10x10.csv */,
+				F7F02EB5290997E30091DC39 /* longitude10x10.csv */,
+				F7F02EAF290996B70091DC39 /* slope10x10.csv */,
 				F7F02E7D2909940E0091DC39 /* Assets.xcassets */,
 				F7F02E7F2909940E0091DC39 /* LaunchScreen.storyboard */,
 				F7F02E822909940E0091DC39 /* Info.plist */,
@@ -231,8 +243,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F02EB9290997E30091DC39 /* latitude10x10.csv in Resources */,
 				F7F02E812909940E0091DC39 /* LaunchScreen.storyboard in Resources */,
+				F7F02EB8290997E30091DC39 /* longitude10x10.csv in Resources */,
+				F7F02EB3290996B70091DC39 /* slope10x10.csv in Resources */,
 				F7F02E7E2909940E0091DC39 /* Assets.xcassets in Resources */,
+				F7F02EB7290997E30091DC39 /* height10x10.csv in Resources */,
 				F7F02E7C2909940D0091DC39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
